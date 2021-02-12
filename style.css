@@ -1,0 +1,36 @@
+
+body{
+  color:white;
+  font-family:Brushstroke;
+  background:url(https://www.teahub.io/photos/full/87-879470_computer-programming-coding-technology.jpg);
+  width:100%;
+  height:auto;
+  }
+#container{
+  background-color:rgba(20,0,10,0.6);
+  display:block;
+  margin:10% 20% 0% 20%;
+  padding:10px 10px 10px 20px;
+  border-radius:10px;
+  }
+input{
+  width:90%;
+  height:30px;
+  border-radius:5px;
+ 
+  }
+[type="radio"]{
+  width:10%;
+  }
+[type="checkbox"]{
+  width:10%;
+  }
+.submit{
+  background-color:rgba(20,10,10,0.9);
+  color:white;
+  border-width:1px;
+  border-color:white;
+  }
+
+
+</style>

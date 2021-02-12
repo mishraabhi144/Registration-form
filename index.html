@@ -1,0 +1,77 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<title>Registration Form</title>
+</head>
+
+<body>
+  <div id="container">
+<h1 id="title" align="center">PARIKALAN</h1>
+
+    
+    <p id="description" align="center">The Computer Science Society</p>
+<h3 align="center">Registration Form</h3>
+<form id="survey-form" action="get" url="#">
+ <div id="content">
+<label id="name-label">First Name:</label><br>
+  <input type="text" id="name" placeholder="First name" required><br>
+   
+<label id="last-name">Last Name:</label><br>
+                     <input type="text" id="lname" size=15 maxlength=25 placeholder="Last name"><br>
+<br>
+<label id="number-label">Roll Number:</label><br>
+<input type="number" id="number" size=4 min=0 max=99 placeholder="Roll Number">
+<br><br>
+
+<label>Course:</label><br>
+<select id="dropdown">
+<option value="Bsc Computer Science(H)">Bsc Computer Science(H)
+<option value="Bsc Mathematial Science">Bsc Mathematical Science
+<option value="Bcs Physical Science(CS)">Bsc Physical Science(CS)
+</select>
+
+<br><br><br>
+<label id="email-label">Email:</label><br>
+<input type="email" id="email" placeholder="something@example.com" required><br>
+<label for="Mno.">Mobile No.</label><br><input type="number" name="Mobile" value="" size=10>
+
+<br><br>
+Academic Year:<br>
+<input type="radio" name="year" value=1>1st<br>
+<input type="radio" name="year" value=2>2nd<br>
+<input type="radio" name="year" value=3>3rd<br>
+<br><br>
+
+Interests(You can choose more than one):<br>
+<input type="checkbox" name="Interests" value="Programming">Programming<br>
+<input type="checkbox" name="Interests" value="Web Development">Web Development<br>
+<input type="checkbox" name="Interests" value="App Development">App Development<br>
+<input type="checkbox" name="Interests" value="Software Development">Software Development<br>
+<input type="checkbox" name="Interests" value="other">Others<br>
+if other please specify:<br>
+                                                 <input type="text" name="Interests" size=15 maxlength=25><br>
+<br><br>
+
+<b>Tell us somethings about yourself:</b><br>
+<textarea id="textarea" rows=10 cols=20
+        wrap>
+</textarea>
+<br><br>
+
+Upload an image of your id card:<br>
+<input type="file">
+<br><br>
+
+<input class="submit" type="reset"><br>
+<input class="submit" id="submit" type="submit">
+
+                                </div>
+                                </div>
+
+</form>
+</body>
+</html>
+
+
+
